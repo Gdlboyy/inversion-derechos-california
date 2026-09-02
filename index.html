@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Inversión Derechos en California</title>
-<link rel="icon" href="assets/derechos-california-logo.png">
+<link rel="icon" href="assets/dc-mark.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,44 +14,35 @@
 <div class="wrap">
 
   <div class="top">
-    <img src="assets/derechos-california-logo.png" alt="Derechos en California">
+    <span class="badge-logo"><img src="assets/dc-mark.png" alt="Derechos en California"></span>
     <div>
-      <p class="eyebrow">Reporte de inversión &middot; Publicidad</p>
       <h1>Inversión Derechos en California</h1>
     </div>
   </div>
-  <p class="sub">Panorama general del gasto en publicidad de la marca, reunido a partir de los reportes disponibles. Los montos marcados como <b>estimado del periodo</b> son totales reales del reporte original que no venían desglosados día por día — nunca cifras inventadas.</p>
+  <p class="sub">Panorama del gasto en publicidad de la marca, reunido a partir de los reportes disponibles. Los montos marcados como <b>estimado del periodo</b> son totales reales que no venían desglosados día por día en el reporte original — nunca cifras inventadas.</p>
 
-  <!-- HERO TOTAL -->
-  <div class="hero-total">
-    <div class="hero-total-grid">
-      <div>
-        <p class="hero-total-lab">Inversión total registrada</p>
-        <div class="hero-total-num"><span class="cur">$</span><span id="heroTotal">&mdash;</span><span class="unit">MXN</span></div>
-        <p class="hero-total-cap" id="heroCaption">Cargando datos&hellip;</p>
+  <!-- LIVE PANEL -->
+  <section class="live" aria-label="Últimos 7 días">
+    <div class="live-head">
+      <div class="live-title">
+        <span class="live-dot" aria-hidden="true"></span>
+        <h2>En vivo &middot; últimos 7 días</h2>
       </div>
-      <div class="hero-rows" id="heroRows"></div>
+      <span class="live-range" id="liveRange">&nbsp;</span>
     </div>
-  </div>
-
-  <!-- ULTIMOS 7 DIAS -->
-  <section>
-    <div class="sec-head">
-      <h2>Panorama &middot; últimos 7 días</h2>
-      <span class="hint" id="last7Range">&nbsp;</span>
+    <div class="live-total" id="liveTotalWrap" hidden>
+      <div class="num"><span class="cur">$</span><span id="liveTotal">0</span></div>
+      <div class="lab">MXN en los últimos 7 días con dato registrado</div>
     </div>
-    <div class="card">
-      <div class="tl-legend" id="last7Legend"></div>
-      <div id="last7Chart"></div>
-      <p style="margin:16px 0 0;font-size:13px;color:var(--slate);" id="last7Note"></p>
-    </div>
+    <div class="live-legend" id="liveLegend"></div>
+    <div id="liveChart"></div>
   </section>
 
-  <!-- FILTRO -->
+  <!-- FILTRO + GRAFICAS -->
   <section>
     <div class="sec-head">
-      <h2>Filtrar por rango de fechas</h2>
-      <span class="hint">elige un periodo y una categoría</span>
+      <h2>Explorar por fecha y categoría</h2>
+      <span class="hint">las gráficas se ajustan al vuelo</span>
     </div>
     <div class="card">
       <div class="filters">
@@ -72,14 +63,40 @@
 
       <div id="gapBanner"></div>
 
-      <div class="results-total">
-        <div class="num"><span class="cur">$</span><span id="resTotal">0</span></div>
-        <div class="lab">MXN invertidos en el rango y categoría seleccionados</div>
+      <div class="result-grid">
+        <div class="donut">
+          <svg width="172" height="172" viewBox="0 0 172 172" id="donutSvg">
+            <circle cx="86" cy="86" r="66" fill="none" stroke="var(--line-soft)" stroke-width="20"/>
+          </svg>
+          <div class="donut-center">
+            <div class="dc-num"><span class="cur">$</span><span id="resTotal">0</span></div>
+            <div class="dc-lab">Seleccionado</div>
+          </div>
+        </div>
+        <div class="chan-list" id="resBreakdown"></div>
       </div>
 
-      <div class="chan-list" id="resBreakdown"></div>
+      <div class="range-strip-wrap" id="rangeStripWrap" hidden>
+        <div id="rangeStrip"></div>
+      </div>
 
-      <div class="mov-list" id="resMovs"></div>
+      <div class="period-note" id="periodNote" hidden></div>
+
+      <button class="detail-toggle" id="detailToggle" type="button" aria-expanded="false">
+        <span id="detailToggleLabel">Ver movimientos individuales</span>
+        <svg class="chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="mov-list" id="resMovs"><div class="mov-list-inner" id="resMovsInner"></div></div>
+    </div>
+  </section>
+
+  <!-- TOTAL HISTORICO (colapsado) -->
+  <section>
+    <button class="hist-toggle" id="histToggle" type="button" aria-expanded="false">
+      Ver total histórico acumulado
+    </button>
+    <div class="hist-body" id="histBody">
+      <div class="hist-rows" id="histRows"></div>
     </div>
   </section>
 

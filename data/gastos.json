@@ -2,10 +2,10 @@
   "moneda": "MXN",
   "actualizado": "2026-09-02",
   "categorias": [
-    { "id": "google-ads", "nombre": "Google Ads", "color": "#B9862F" },
-    { "id": "meta-ads", "nombre": "Meta Ads (Facebook / Instagram)", "color": "#3B5A9A" },
-    { "id": "tiktok", "nombre": "TikTok", "color": "#8A79A8" },
-    { "id": "vps", "nombre": "VPS / Automatización", "color": "#4C7A63" }
+    { "id": "google-ads", "nombre": "Google Ads", "color": "#D4A94E" },
+    { "id": "meta-ads", "nombre": "Meta Ads (Facebook / Instagram)", "color": "#6C93E0" },
+    { "id": "tiktok", "nombre": "TikTok", "color": "#B49BDD" },
+    { "id": "vps", "nombre": "VPS / Automatización", "color": "#6FBFA4" }
   ],
   "huecos": [
     {
