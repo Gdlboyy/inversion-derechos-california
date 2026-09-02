@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inversión Derechos en California</title>
+<link rel="icon" href="assets/derechos-california-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top">
+    <img src="assets/derechos-california-logo.png" alt="Derechos en California">
+    <div>
+      <p class="eyebrow">Reporte de inversión &middot; Publicidad</p>
+      <h1>Inversión Derechos en California</h1>
+    </div>
+  </div>
+  <p class="sub">Panorama general del gasto en publicidad de la marca, reunido a partir de los reportes disponibles. Los montos marcados como <b>estimado del periodo</b> son totales reales del reporte original que no venían desglosados día por día — nunca cifras inventadas.</p>
+
+  <!-- HERO TOTAL -->
+  <div class="hero-total">
+    <div class="hero-total-grid">
+      <div>
+        <p class="hero-total-lab">Inversión total registrada</p>
+        <div class="hero-total-num"><span class="cur">$</span><span id="heroTotal">&mdash;</span><span class="unit">MXN</span></div>
+        <p class="hero-total-cap" id="heroCaption">Cargando datos&hellip;</p>
+      </div>
+      <div class="hero-rows" id="heroRows"></div>
+    </div>
+  </div>
+
+  <!-- ULTIMOS 7 DIAS -->
+  <section>
+    <div class="sec-head">
+      <h2>Panorama &middot; últimos 7 días</h2>
+      <span class="hint" id="last7Range">&nbsp;</span>
+    </div>
+    <div class="card">
+      <div class="tl-legend" id="last7Legend"></div>
+      <div id="last7Chart"></div>
+      <p style="margin:16px 0 0;font-size:13px;color:var(--slate);" id="last7Note"></p>
+    </div>
+  </section>
+
+  <!-- FILTRO -->
+  <section>
+    <div class="sec-head">
+      <h2>Filtrar por rango de fechas</h2>
+      <span class="hint">elige un periodo y una categoría</span>
+    </div>
+    <div class="card">
+      <div class="filters">
+        <div class="field">
+          <label for="fDesde">Desde</label>
+          <input type="date" id="fDesde">
+        </div>
+        <div class="field">
+          <label for="fHasta">Hasta</label>
+          <input type="date" id="fHasta">
+        </div>
+        <div class="field" style="flex:1;min-width:220px;">
+          <label>Categoría</label>
+          <div class="chip-cats" id="chipCats"></div>
+        </div>
+        <button class="reset-btn" id="resetBtn" type="button">Ver todo el periodo</button>
+      </div>
+
+      <div id="gapBanner"></div>
+
+      <div class="results-total">
+        <div class="num"><span class="cur">$</span><span id="resTotal">0</span></div>
+        <div class="lab">MXN invertidos en el rango y categoría seleccionados</div>
+      </div>
+
+      <div class="chan-list" id="resBreakdown"></div>
+
+      <div class="mov-list" id="resMovs"></div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <span><b>Fuentes:</b> Reporte 11 jun&ndash;15 jul 2026 &middot; Reporte 25 jul&ndash;20 ago 2026</span>
+    <span><b>Última actualización de datos:</b> <span id="footUpdated">&mdash;</span></span>
+    <span><b>Nota:</b> cifras en pesos mexicanos (MXN)</span>
+  </div>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

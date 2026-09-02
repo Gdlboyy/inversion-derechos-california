@@ -1,0 +1,107 @@
+{
+  "moneda": "MXN",
+  "actualizado": "2026-09-02",
+  "categorias": [
+    { "id": "google-ads", "nombre": "Google Ads", "color": "#B9862F" },
+    { "id": "meta-ads", "nombre": "Meta Ads (Facebook / Instagram)", "color": "#3B5A9A" },
+    { "id": "tiktok", "nombre": "TikTok", "color": "#8A79A8" },
+    { "id": "vps", "nombre": "VPS / Automatización", "color": "#4C7A63" }
+  ],
+  "huecos": [
+    {
+      "fechaInicio": "2026-07-16",
+      "fechaFin": "2026-07-24",
+      "nota": "No existe reporte de gasto para estas fechas. No se incluyó ninguna cifra estimada."
+    }
+  ],
+  "movimientos": [
+    {
+      "id": "p1-google",
+      "categoria": "google-ads",
+      "importe": 3347,
+      "exacto": false,
+      "fechaInicio": "2026-06-11",
+      "fechaFin": "2026-07-15",
+      "fuente": "Reporte 11 jun – 15 jul 2026",
+      "nota": "Inversión real sin IVA del periodo. El reporte también registra movimientos con IVA en fechas puntuales: 23 jun ($400), 27 jun ($920), 3 jul ($1,640) y 15 jul ($927)."
+    },
+    {
+      "id": "p1-meta",
+      "categoria": "meta-ads",
+      "importe": 1050,
+      "exacto": false,
+      "fechaInicio": "2026-06-11",
+      "fechaFin": "2026-07-15",
+      "fuente": "Reporte 11 jun – 15 jul 2026",
+      "nota": "Inversión real sin IVA del periodo. Movimientos con IVA registrados: 11 jun ($250) y 10 jul ($800)."
+    },
+    {
+      "id": "p1-vps",
+      "categoria": "vps",
+      "importe": 420,
+      "exacto": false,
+      "fechaInicio": "2026-06-11",
+      "fechaFin": "2026-07-15",
+      "fuente": "Reporte 11 jun – 15 jul 2026",
+      "nota": "Incluye además 25 USD de recurso aparte de los $420 MXN, según el reporte original. Movimiento con IVA registrado: 11 jul ($420)."
+    },
+    {
+      "id": "p1-tiktok",
+      "categoria": "tiktok",
+      "importe": 120,
+      "exacto": false,
+      "fechaInicio": "2026-06-11",
+      "fechaFin": "2026-07-15",
+      "fuente": "Reporte 11 jun – 15 jul 2026",
+      "nota": "Inversión real sin IVA del periodo. El reporte no especifica fecha exacta del movimiento (monto con IVA: $200)."
+    },
+    {
+      "id": "p2-meta-min",
+      "categoria": "meta-ads",
+      "importe": 136.43,
+      "exacto": true,
+      "fecha": "2026-07-25",
+      "fuente": "Reporte 25 jul – 20 ago 2026",
+      "nota": "Día de menor gasto del periodo."
+    },
+    {
+      "id": "p2-meta-max",
+      "categoria": "meta-ads",
+      "importe": 575.59,
+      "exacto": true,
+      "fecha": "2026-08-02",
+      "fuente": "Reporte 25 jul – 20 ago 2026",
+      "nota": "Día de mayor gasto del periodo."
+    },
+    {
+      "id": "p2-meta-resto",
+      "categoria": "meta-ads",
+      "importe": 8457.00,
+      "exacto": false,
+      "fechaInicio": "2026-07-26",
+      "fechaFin": "2026-08-20",
+      "fuente": "Reporte 25 jul – 20 ago 2026",
+      "nota": "Resto del gasto de Meta Ads del periodo (excluye los 2 días con monto exacto de arriba). Sin desglose diario en el reporte original. Promedio diario informado del periodo completo: $339.59 MXN."
+    },
+    {
+      "id": "p2-vps",
+      "categoria": "vps",
+      "importe": 600,
+      "exacto": false,
+      "fechaInicio": "2026-07-25",
+      "fechaFin": "2026-08-20",
+      "fuente": "Reporte 25 jul – 20 ago 2026",
+      "nota": "Gasto operativo del periodo (infraestructura recurrente), sin día específico reportado."
+    },
+    {
+      "id": "p2-google",
+      "categoria": "google-ads",
+      "importe": 0,
+      "exacto": true,
+      "fechaInicio": "2026-07-25",
+      "fechaFin": "2026-08-20",
+      "fuente": "Reporte 25 jul – 20 ago 2026",
+      "nota": "Presupuesto de $450 MXN reservado, pero la campaña no se activó. No se ejerció gasto en este periodo."
+    }
+  ]
+}
