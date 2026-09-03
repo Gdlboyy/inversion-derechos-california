@@ -2,18 +2,28 @@
   "moneda": "MXN",
   "actualizado": "2026-09-02",
   "categorias": [
-    { "id": "google-ads", "nombre": "Google Ads", "color": "#D4A94E" },
-    { "id": "meta-ads", "nombre": "Meta Ads (Facebook / Instagram)", "color": "#6C93E0" },
-    { "id": "tiktok", "nombre": "TikTok", "color": "#B49BDD" },
-    { "id": "vps", "nombre": "VPS / Automatización", "color": "#6FBFA4" }
-  ],
-  "huecos": [
     {
-      "fechaInicio": "2026-07-16",
-      "fechaFin": "2026-07-24",
-      "nota": "No existe reporte de gasto para estas fechas. No se incluyó ninguna cifra estimada."
+      "id": "google-ads",
+      "nombre": "Google Ads",
+      "color": "#D4A94E"
+    },
+    {
+      "id": "meta-ads",
+      "nombre": "Meta Ads (Facebook / Instagram)",
+      "color": "#6C93E0"
+    },
+    {
+      "id": "tiktok",
+      "nombre": "TikTok",
+      "color": "#B49BDD"
+    },
+    {
+      "id": "vps",
+      "nombre": "VPS / Automatización",
+      "color": "#6FBFA4"
     }
   ],
+  "huecos": [],
   "movimientos": [
     {
       "id": "p1-google",
@@ -24,16 +34,6 @@
       "fechaFin": "2026-07-15",
       "fuente": "Reporte 11 jun – 15 jul 2026",
       "nota": "Inversión real sin IVA del periodo. El reporte también registra movimientos con IVA en fechas puntuales: 23 jun ($400), 27 jun ($920), 3 jul ($1,640) y 15 jul ($927)."
-    },
-    {
-      "id": "p1-meta",
-      "categoria": "meta-ads",
-      "importe": 1050,
-      "exacto": false,
-      "fechaInicio": "2026-06-11",
-      "fechaFin": "2026-07-15",
-      "fuente": "Reporte 11 jun – 15 jul 2026",
-      "nota": "Inversión real sin IVA del periodo. Movimientos con IVA registrados: 11 jun ($250) y 10 jul ($800)."
     },
     {
       "id": "p1-vps",
@@ -56,34 +56,6 @@
       "nota": "Inversión real sin IVA del periodo. El reporte no especifica fecha exacta del movimiento (monto con IVA: $200)."
     },
     {
-      "id": "p2-meta-min",
-      "categoria": "meta-ads",
-      "importe": 136.43,
-      "exacto": true,
-      "fecha": "2026-07-25",
-      "fuente": "Reporte 25 jul – 20 ago 2026",
-      "nota": "Día de menor gasto del periodo."
-    },
-    {
-      "id": "p2-meta-max",
-      "categoria": "meta-ads",
-      "importe": 575.59,
-      "exacto": true,
-      "fecha": "2026-08-02",
-      "fuente": "Reporte 25 jul – 20 ago 2026",
-      "nota": "Día de mayor gasto del periodo."
-    },
-    {
-      "id": "p2-meta-resto",
-      "categoria": "meta-ads",
-      "importe": 8457.00,
-      "exacto": false,
-      "fechaInicio": "2026-07-26",
-      "fechaFin": "2026-08-20",
-      "fuente": "Reporte 25 jul – 20 ago 2026",
-      "nota": "Resto del gasto de Meta Ads del periodo (excluye los 2 días con monto exacto de arriba). Sin desglose diario en el reporte original. Promedio diario informado del periodo completo: $339.59 MXN."
-    },
-    {
       "id": "p2-vps",
       "categoria": "vps",
       "importe": 600,
@@ -102,6 +74,557 @@
       "fechaFin": "2026-08-20",
       "fuente": "Reporte 25 jul – 20 ago 2026",
       "nota": "Presupuesto de $450 MXN reservado, pero la campaña no se activó. No se ejerció gasto en este periodo."
+    },
+    {
+      "id": "meta-messenger-2026-06-11",
+      "categoria": "meta-ads",
+      "importe": 44.55,
+      "exacto": true,
+      "fecha": "2026-06-11",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "[11/6/2026] Promoción de Messenger",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-messenger-2026-06-12",
+      "categoria": "meta-ads",
+      "importe": 61.14,
+      "exacto": true,
+      "fecha": "2026-06-12",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "[11/6/2026] Promoción de Messenger",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-messenger-2026-06-13",
+      "categoria": "meta-ads",
+      "importe": 21.28,
+      "exacto": true,
+      "fecha": "2026-06-13",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "[11/6/2026] Promoción de Messenger",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-messenger-2026-06-15",
+      "categoria": "meta-ads",
+      "importe": 87.36,
+      "exacto": true,
+      "fecha": "2026-06-15",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "[11/6/2026] Promoción de Messenger",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-messenger-2026-06-16",
+      "categoria": "meta-ads",
+      "importe": 34.77,
+      "exacto": true,
+      "fecha": "2026-06-16",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "[11/6/2026] Promoción de Messenger",
+      "estadoCampana": "inactiva",
+      "leads": 2
+    },
+    {
+      "id": "meta-formulariodc-2026-07-10",
+      "categoria": "meta-ads",
+      "importe": 83.97,
+      "exacto": true,
+      "fecha": "2026-07-10",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "[10/7/2026] Promoción de Formulario DC",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-formulariodc-2026-07-11",
+      "categoria": "meta-ads",
+      "importe": 170.62,
+      "exacto": true,
+      "fecha": "2026-07-11",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "[10/7/2026] Promoción de Formulario DC",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-formulariodc-2026-07-12",
+      "categoria": "meta-ads",
+      "importe": 253.76,
+      "exacto": true,
+      "fecha": "2026-07-12",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "[10/7/2026] Promoción de Formulario DC",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-formulariodc-2026-07-13",
+      "categoria": "meta-ads",
+      "importe": 133.55,
+      "exacto": true,
+      "fecha": "2026-07-13",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "[10/7/2026] Promoción de Formulario DC",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-formulariodc-2026-07-14",
+      "categoria": "meta-ads",
+      "importe": 32.8,
+      "exacto": true,
+      "fecha": "2026-07-14",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "[10/7/2026] Promoción de Formulario DC",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-07-25",
+      "categoria": "meta-ads",
+      "importe": 136.43,
+      "exacto": true,
+      "fecha": "2026-07-25",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-07-26",
+      "categoria": "meta-ads",
+      "importe": 185.8,
+      "exacto": true,
+      "fecha": "2026-07-26",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-leadspotenciales-2026-07-27",
+      "categoria": "meta-ads",
+      "importe": 232.66,
+      "exacto": true,
+      "fecha": "2026-07-27",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-07-28",
+      "categoria": "meta-ads",
+      "importe": 175.41,
+      "exacto": true,
+      "fecha": "2026-07-28",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-07-29",
+      "categoria": "meta-ads",
+      "importe": 243.7,
+      "exacto": true,
+      "fecha": "2026-07-29",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-leadspotenciales-2026-07-30",
+      "categoria": "meta-ads",
+      "importe": 190.5,
+      "exacto": true,
+      "fecha": "2026-07-30",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-07-31",
+      "categoria": "meta-ads",
+      "importe": 176.68,
+      "exacto": true,
+      "fecha": "2026-07-31",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-01",
+      "categoria": "meta-ads",
+      "importe": 256.52,
+      "exacto": true,
+      "fecha": "2026-08-01",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-02",
+      "categoria": "meta-ads",
+      "importe": 575.59,
+      "exacto": true,
+      "fecha": "2026-08-02",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 2
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-03",
+      "categoria": "meta-ads",
+      "importe": 463.64,
+      "exacto": true,
+      "fecha": "2026-08-03",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 2
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-04",
+      "categoria": "meta-ads",
+      "importe": 317.16,
+      "exacto": true,
+      "fecha": "2026-08-04",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 2
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-05",
+      "categoria": "meta-ads",
+      "importe": 356.89,
+      "exacto": true,
+      "fecha": "2026-08-05",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-06",
+      "categoria": "meta-ads",
+      "importe": 363.0,
+      "exacto": true,
+      "fecha": "2026-08-06",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-07",
+      "categoria": "meta-ads",
+      "importe": 368.57,
+      "exacto": true,
+      "fecha": "2026-08-07",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-08",
+      "categoria": "meta-ads",
+      "importe": 350.79,
+      "exacto": true,
+      "fecha": "2026-08-08",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-09",
+      "categoria": "meta-ads",
+      "importe": 448.01,
+      "exacto": true,
+      "fecha": "2026-08-09",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-10",
+      "categoria": "meta-ads",
+      "importe": 351.54,
+      "exacto": true,
+      "fecha": "2026-08-10",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-11",
+      "categoria": "meta-ads",
+      "importe": 348.46,
+      "exacto": true,
+      "fecha": "2026-08-11",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-12",
+      "categoria": "meta-ads",
+      "importe": 411.54,
+      "exacto": true,
+      "fecha": "2026-08-12",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-13",
+      "categoria": "meta-ads",
+      "importe": 340.47,
+      "exacto": true,
+      "fecha": "2026-08-13",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 2
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-14",
+      "categoria": "meta-ads",
+      "importe": 423.53,
+      "exacto": true,
+      "fecha": "2026-08-14",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-15",
+      "categoria": "meta-ads",
+      "importe": 392.6,
+      "exacto": true,
+      "fecha": "2026-08-15",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-16",
+      "categoria": "meta-ads",
+      "importe": 511.98,
+      "exacto": true,
+      "fecha": "2026-08-16",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 2
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-17",
+      "categoria": "meta-ads",
+      "importe": 362.09,
+      "exacto": true,
+      "fecha": "2026-08-17",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-18",
+      "categoria": "meta-ads",
+      "importe": 454.0,
+      "exacto": true,
+      "fecha": "2026-08-18",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 0
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-19",
+      "categoria": "meta-ads",
+      "importe": 410.81,
+      "exacto": true,
+      "fecha": "2026-08-19",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-20",
+      "categoria": "meta-ads",
+      "importe": 320.7,
+      "exacto": true,
+      "fecha": "2026-08-20",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-desempleo-2026-08-21",
+      "categoria": "meta-ads",
+      "importe": 283.07,
+      "exacto": true,
+      "fecha": "2026-08-21",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 5
+    },
+    {
+      "id": "meta-leadspotenciales-2026-08-21",
+      "categoria": "meta-ads",
+      "importe": 374.8,
+      "exacto": true,
+      "fecha": "2026-08-21",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "LEADS potenciales - Claude",
+      "estadoCampana": "inactiva",
+      "leads": 1
+    },
+    {
+      "id": "meta-desempleo-2026-08-22",
+      "categoria": "meta-ads",
+      "importe": 384.46,
+      "exacto": true,
+      "fecha": "2026-08-22",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 7
+    },
+    {
+      "id": "meta-desempleo-2026-08-23",
+      "categoria": "meta-ads",
+      "importe": 489.25,
+      "exacto": true,
+      "fecha": "2026-08-23",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 6
+    },
+    {
+      "id": "meta-desempleo-2026-08-24",
+      "categoria": "meta-ads",
+      "importe": 451.57,
+      "exacto": true,
+      "fecha": "2026-08-24",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 4
+    },
+    {
+      "id": "meta-desempleo-2026-08-25",
+      "categoria": "meta-ads",
+      "importe": 395.15,
+      "exacto": true,
+      "fecha": "2026-08-25",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 5
+    },
+    {
+      "id": "meta-desempleo-2026-08-26",
+      "categoria": "meta-ads",
+      "importe": 574.23,
+      "exacto": true,
+      "fecha": "2026-08-26",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 6
+    },
+    {
+      "id": "meta-desempleo-2026-08-27",
+      "categoria": "meta-ads",
+      "importe": 364.98,
+      "exacto": true,
+      "fecha": "2026-08-27",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 3
+    },
+    {
+      "id": "meta-desempleo-2026-08-28",
+      "categoria": "meta-ads",
+      "importe": 491.75,
+      "exacto": true,
+      "fecha": "2026-08-28",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 8
+    },
+    {
+      "id": "meta-desempleo-2026-08-29",
+      "categoria": "meta-ads",
+      "importe": 380.01,
+      "exacto": true,
+      "fecha": "2026-08-29",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 7
+    },
+    {
+      "id": "meta-desempleo-2026-08-30",
+      "categoria": "meta-ads",
+      "importe": 452.3,
+      "exacto": true,
+      "fecha": "2026-08-30",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 3
+    },
+    {
+      "id": "meta-desempleo-2026-08-31",
+      "categoria": "meta-ads",
+      "importe": 491.4,
+      "exacto": true,
+      "fecha": "2026-08-31",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 2
+    },
+    {
+      "id": "meta-desempleo-2026-09-01",
+      "categoria": "meta-ads",
+      "importe": 399.45,
+      "exacto": true,
+      "fecha": "2026-09-01",
+      "fuente": "Meta Ads – desglose diario (8 jun–1 sep 2026)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 3,
+      "nota": "Monto derivado por resta exacta: el archivo diario solo llega al 31 de agosto; el total verificado del periodo 21 ago–1 sep (reporte aparte) menos la suma diaria conocida da este resultado para el 1 de sep."
     }
   ]
 }

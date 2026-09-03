@@ -8,9 +8,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css?v=2">
 </head>
 <body>
+<div class="bg" aria-hidden="true">
+  <span class="bg-glow g1"></span>
+  <span class="bg-glow g2"></span>
+  <span class="bg-glow g3"></span>
+  <span class="bg-vignette"></span>
+  <span class="bg-grain"></span>
+</div>
+
 <div class="wrap">
 
   <div class="top">
@@ -38,6 +46,31 @@
     <div id="liveChart"></div>
   </section>
 
+  <!-- CAMPAÑA ACTIVA -->
+  <section class="spot" id="spotlightSection" hidden aria-label="Campaña activa">
+    <div class="spot-card">
+      <div class="spot-head">
+        <span class="spot-badge">ACTIVA</span>
+        <span class="spot-name" id="spotName"></span>
+      </div>
+      <div class="spot-stats">
+        <div class="spot-stat">
+          <div class="spot-num" id="spotLeads">0</div>
+          <div class="spot-lab">leads registrados</div>
+        </div>
+        <div class="spot-stat">
+          <div class="spot-num sm" id="spotCpl">$0</div>
+          <div class="spot-lab">costo por lead</div>
+        </div>
+        <div class="spot-stat">
+          <div class="spot-num sm" id="spotSpend">$0</div>
+          <div class="spot-lab">invertido en el periodo</div>
+        </div>
+      </div>
+      <p class="spot-note" id="spotNote"></p>
+    </div>
+  </section>
+
   <!-- FILTRO + GRAFICAS -->
   <section>
     <div class="sec-head">
@@ -45,20 +78,22 @@
       <span class="hint">las gráficas se ajustan al vuelo</span>
     </div>
     <div class="card">
-      <div class="filters">
-        <div class="field">
-          <label for="fDesde">Desde</label>
-          <input type="date" id="fDesde">
+      <div class="filters-panel">
+        <div class="quick-ranges" id="quickRanges"></div>
+        <div class="filters-row">
+          <div class="field">
+            <label for="fDesde">Desde</label>
+            <input type="date" id="fDesde">
+          </div>
+          <div class="field">
+            <label for="fHasta">Hasta</label>
+            <input type="date" id="fHasta">
+          </div>
         </div>
-        <div class="field">
-          <label for="fHasta">Hasta</label>
-          <input type="date" id="fHasta">
-        </div>
-        <div class="field" style="flex:1;min-width:220px;">
+        <div class="field cat-field">
           <label>Categoría</label>
           <div class="chip-cats" id="chipCats"></div>
         </div>
-        <button class="reset-btn" id="resetBtn" type="button">Ver todo el periodo</button>
       </div>
 
       <div id="gapBanner"></div>
@@ -101,13 +136,13 @@
   </section>
 
   <div class="foot">
-    <span><b>Fuentes:</b> Reporte 11 jun&ndash;15 jul 2026 &middot; Reporte 25 jul&ndash;20 ago 2026</span>
+    <span><b>Fuentes:</b> Reporte 11 jun&ndash;15 jul 2026 &middot; Reporte 25 jul&ndash;20 ago 2026 &middot; Reporte 21 ago&ndash;1 sep 2026</span>
     <span><b>Última actualización de datos:</b> <span id="footUpdated">&mdash;</span></span>
     <span><b>Nota:</b> cifras en pesos mexicanos (MXN)</span>
   </div>
 
 </div>
 
-<script src="js/app.js"></script>
+<script src="js/app.js?v=2"></script>
 </body>
 </html>
