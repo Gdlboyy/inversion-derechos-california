@@ -1,6 +1,6 @@
 {
   "moneda": "MXN",
-  "actualizado": "2026-09-02",
+  "actualizado": "2026-09-06",
   "categorias": [
     {
       "id": "google-ads",
@@ -625,6 +625,61 @@
       "estadoCampana": "activa",
       "leads": 3,
       "nota": "Monto derivado por resta exacta: el archivo diario solo llega al 31 de agosto; el total verificado del periodo 21 ago–1 sep (reporte aparte) menos la suma diaria conocida da este resultado para el 1 de sep."
+    },
+    {
+      "id": "meta-desempleo-2026-09-02",
+      "categoria": "meta-ads",
+      "importe": 444.86,
+      "exacto": true,
+      "fecha": "2026-09-02",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 4
+    },
+    {
+      "id": "meta-desempleo-2026-09-03",
+      "categoria": "meta-ads",
+      "importe": 453.98,
+      "exacto": true,
+      "fecha": "2026-09-03",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 6
+    },
+    {
+      "id": "meta-desempleo-2026-09-04",
+      "categoria": "meta-ads",
+      "importe": 410.79,
+      "exacto": true,
+      "fecha": "2026-09-04",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 2
+    },
+    {
+      "id": "meta-desempleo-2026-09-05",
+      "categoria": "meta-ads",
+      "importe": 494.12,
+      "exacto": true,
+      "fecha": "2026-09-05",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 4
+    },
+    {
+      "id": "meta-desempleo-2026-09-06",
+      "categoria": "meta-ads",
+      "importe": 420.80,
+      "exacto": true,
+      "fecha": "2026-09-06",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 3
     }
   ]
 }
