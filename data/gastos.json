@@ -1,6 +1,6 @@
 {
   "moneda": "MXN",
-  "actualizado": "2026-09-06",
+  "actualizado": "2026-09-13",
   "categorias": [
     {
       "id": "google-ads",
@@ -680,6 +680,101 @@
       "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
       "estadoCampana": "activa",
       "leads": 3
+    },
+    {
+      "id": "meta-desempleo-2026-09-07",
+      "categoria": "meta-ads",
+      "importe": 543.15,
+      "exacto": true,
+      "fecha": "2026-09-07",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 5
+    },
+    {
+      "id": "meta-desempleo-2026-09-08",
+      "categoria": "meta-ads",
+      "importe": 485.07,
+      "exacto": true,
+      "fecha": "2026-09-08",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 5
+    },
+    {
+      "id": "meta-desempleo-2026-09-09",
+      "categoria": "meta-ads",
+      "importe": 390.88,
+      "exacto": true,
+      "fecha": "2026-09-09",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 0
+    },
+    {
+      "id": "meta-desempleo-2026-09-10",
+      "categoria": "meta-ads",
+      "importe": 508.67,
+      "exacto": true,
+      "fecha": "2026-09-10",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 3
+    },
+    {
+      "id": "meta-desempleo-2026-09-11",
+      "categoria": "meta-ads",
+      "importe": 385.24,
+      "exacto": true,
+      "fecha": "2026-09-11",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 4
+    },
+    {
+      "id": "meta-desempleo-2026-09-12",
+      "categoria": "meta-ads",
+      "importe": 412.69,
+      "exacto": true,
+      "fecha": "2026-09-12",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 10
+    },
+    {
+      "id": "meta-desempleo-2026-09-13",
+      "categoria": "meta-ads",
+      "importe": 516.19,
+      "exacto": true,
+      "fecha": "2026-09-13",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "estadoCampana": "activa",
+      "leads": 3
+    },
+    {
+      "id": "vps-2026-09-11",
+      "categoria": "vps",
+      "importe": 380,
+      "exacto": true,
+      "fecha": "2026-09-11",
+      "fuente": "Gasto operativo VPS / automatización reportado directamente",
+      "nota": "Cargo de $380 MXN."
+    },
+    {
+      "id": "vps-2026-09-13",
+      "categoria": "vps",
+      "importe": 339.40,
+      "exacto": true,
+      "fecha": "2026-09-13",
+      "fuente": "Gasto operativo VPS / automatización reportado directamente",
+      "nota": "Cargo original de 20 USD, convertido a MXN con el tipo de cambio FIX Banxico del 13 sep 2026 (16.97 MXN por dólar)."
     }
   ]
 }
