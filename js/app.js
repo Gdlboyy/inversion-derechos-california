@@ -629,6 +629,7 @@
           ? '<div class="mov-note"><b>$' + fmtMoney(slice) + '</b> es la parte proporcional de este rango de fechas, sobre un total de <b>$' + fmtMoney(m.importe) + '</b> reportado para todo el periodo ' + dateLabel.split(" – ")[0] + ' – ' + fmtDateFull(parseDate(m.fechaFin)) + ' (' + (daysBetween(parseDate(m.fechaInicio), parseDate(m.fechaFin)) + 1) + ' días). No es un monto exacto del día, es un estimado proporcional.</div>'
           : "";
         var catLabel = m.campana ? c.nombre + ' · ' + m.campana : c.nombre;
+        if (m.conjunto) catLabel += ' · <b>' + m.conjunto + '</b>';
         var leadsTag = (m.campana && m.leads) ? ' <span class="badge exact" style="background:var(--gold-soft);color:var(--gold-text);">' + m.leads + (m.leads === 1 ? ' lead' : ' leads') + '</span>' : '';
         return '<div class="mov">' +
           '<span class="mov-dot" style="background:' + c.color + '"></span>' +
