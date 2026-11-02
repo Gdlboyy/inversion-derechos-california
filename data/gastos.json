@@ -1,6 +1,6 @@
 {
   "moneda": "MXN",
-  "actualizado": "2026-10-27",
+  "actualizado": "2026-11-02",
   "categorias": [
     {
       "id": "google-ads",
@@ -1441,6 +1441,97 @@
       "conjunto": "Sectores físicos (formulario)",
       "estadoCampana": "activa",
       "leads": 1,
+      "nota": "Conjunto de anuncios: DC | Manual | CA-Todo | Es | 35-64 | Sectores-Fisicos."
+    },
+    {
+      "id": "meta-desempleo-2026-10-26-sectoresfisicos",
+      "categoria": "meta-ads",
+      "importe": 514.27,
+      "exacto": true,
+      "fecha": "2026-10-26",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "conjunto": "Sectores físicos (formulario)",
+      "estadoCampana": "activa",
+      "leads": 5,
+      "nota": "Conjunto de anuncios: DC | Manual | CA-Todo | Es | 35-64 | Sectores-Fisicos."
+    },
+    {
+      "id": "meta-desempleo-2026-10-27-sectoresfisicos",
+      "categoria": "meta-ads",
+      "importe": 473.77,
+      "exacto": true,
+      "fecha": "2026-10-27",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "conjunto": "Sectores físicos (formulario)",
+      "estadoCampana": "activa",
+      "leads": 1,
+      "nota": "Conjunto de anuncios: DC | Manual | CA-Todo | Es | 35-64 | Sectores-Fisicos."
+    },
+    {
+      "id": "meta-desempleo-2026-10-28-sectoresfisicos",
+      "categoria": "meta-ads",
+      "importe": 458.38,
+      "exacto": true,
+      "fecha": "2026-10-28",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "conjunto": "Sectores físicos (formulario)",
+      "estadoCampana": "activa",
+      "leads": 3,
+      "nota": "Conjunto de anuncios: DC | Manual | CA-Todo | Es | 35-64 | Sectores-Fisicos."
+    },
+    {
+      "id": "meta-desempleo-2026-10-29-sectoresfisicos",
+      "categoria": "meta-ads",
+      "importe": 424.18,
+      "exacto": true,
+      "fecha": "2026-10-29",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "conjunto": "Sectores físicos (formulario)",
+      "estadoCampana": "activa",
+      "leads": 0,
+      "nota": "Conjunto de anuncios: DC | Manual | CA-Todo | Es | 35-64 | Sectores-Fisicos."
+    },
+    {
+      "id": "meta-desempleo-2026-10-30-sectoresfisicos",
+      "categoria": "meta-ads",
+      "importe": 85.84,
+      "exacto": true,
+      "fecha": "2026-10-30",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "conjunto": "Sectores físicos (formulario)",
+      "estadoCampana": "activa",
+      "leads": 0,
+      "nota": "Conjunto de anuncios: DC | Manual | CA-Todo | Es | 35-64 | Sectores-Fisicos."
+    },
+    {
+      "id": "meta-desempleo-2026-10-31-sectoresfisicos",
+      "categoria": "meta-ads",
+      "importe": 760.91,
+      "exacto": true,
+      "fecha": "2026-10-31",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "conjunto": "Sectores físicos (formulario)",
+      "estadoCampana": "activa",
+      "leads": 3,
+      "nota": "Conjunto de anuncios: DC | Manual | CA-Todo | Es | 35-64 | Sectores-Fisicos."
+    },
+    {
+      "id": "meta-desempleo-2026-11-01-sectoresfisicos",
+      "categoria": "meta-ads",
+      "importe": 433.2,
+      "exacto": true,
+      "fecha": "2026-11-01",
+      "fuente": "Meta Ads – API Business Manager (consulta directa)",
+      "campana": "DC | Leads | Desempleo-TrabajoRepetitivo | CA-ES",
+      "conjunto": "Sectores físicos (formulario)",
+      "estadoCampana": "activa",
+      "leads": 2,
       "nota": "Conjunto de anuncios: DC | Manual | CA-Todo | Es | 35-64 | Sectores-Fisicos."
     },
     {
