@@ -1904,6 +1904,15 @@
       "nota": "Cargo original de 20 USD, convertido a MXN con el tipo de cambio FIX Banxico del 13 sep 2026 (16.97 MXN por dólar)."
     },
     {
+      "id": "vps-2026-11-11",
+      "categoria": "vps",
+      "importe": 372.38,
+      "exacto": true,
+      "fecha": "2026-11-11",
+      "fuente": "Gasto operativo VPS / automatización reportado directamente",
+      "nota": "Cargo original de 20 USD, convertido a MXN con el tipo de cambio FIX Banxico del 11 nov 2026 (18.6192 MXN por dólar)."
+    },
+    {
       "id": "cloudflare-dominio-2026-09-26",
       "categoria": "vps",
       "importe": 185,
